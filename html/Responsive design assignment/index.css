@@ -117,6 +117,17 @@ footer button:hover{
     color: white;
 
 }
-@media screen {
-    
+@media screen and (max-width: 768px) {
+    .features {
+        flex-direction: column;   
+        gap: 15px;                
+    }
+
+    .features div {
+        width: 100%;            
+    }
+
+    .features img {
+        height: 180px;          
+    }
 }
